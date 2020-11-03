@@ -27,7 +27,7 @@ var server = net.createServer(function (connection) {
 server.on('close', function () {
   console.log(messages)
 })
-
-server.listen(8080, 'localhost', function () {
+var PORT = process.env.PORT || 8080
+server.listen(PORT, 'localhost', function () {
   console.log('waiting for connection')
 })
