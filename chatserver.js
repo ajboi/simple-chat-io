@@ -28,6 +28,6 @@ server.on('close', function () {
   console.log(messages)
 })
 var PORT = process.env.PORT || 8080
-server.listen(PORT, 'localhost', function () {
+server.listen(PORT, '0.0.0.0', function () {
   console.log('waiting for connection')
 })
