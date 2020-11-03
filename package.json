@@ -1,0 +1,26 @@
+{
+  "name": "simple-chat-io",
+  "version": "1.0.0",
+  "description": "A simple backend chat io application.",
+  "main": "chatserver.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chatserver.js",
+    "start-client": "node client.js"
+  },
+  "engines": {
+    "node": "10.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajboi/simple-chat-io.git"
+  },
+  "author": "Ajai Kannan K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajboi/simple-chat-io/issues"
+  },
+  "homepage": "https://github.com/ajboi/simple-chat-io#readme"
+}
