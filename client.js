@@ -3,7 +3,9 @@ var client = new net.Socket()
 client.setEncoding('utf8')
 
 // connect to server
-client.connect('8080', 'localhost', function () {
+var PORT = process.env.PORT || 8080
+
+client.connect(PORT, 'https://simple-chat-io-node.herokuapp.com/', function () {
   console.log('connected to server')
   client.write('Who needs a browser to communicate?')
 })
